@@ -24,6 +24,7 @@ a, a:hover {
 .btn:hover {
     background-color: #92482b;
     border-color: #92482b;
+    color: #fcf9f6;
 }
 
 /*the border around thumbnails*/
