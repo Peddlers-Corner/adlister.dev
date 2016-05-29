@@ -3,7 +3,6 @@
 require_once __DIR__ . "../../../utils/Auth.php";
 require_once __DIR__ . "../../../utils/Input.php";
 
-
 	$username_or_email = Input::get('email_user');
 	$password = Input::get('password');
 
@@ -18,8 +17,6 @@ require_once __DIR__ . "../../../utils/Input.php";
 			exit();	
 		} 
 	}
-
-
 ?>
 <div class="container">
 
@@ -35,6 +32,7 @@ require_once __DIR__ . "../../../utils/Input.php";
                 </div>
                 <?php unset($_SESSION['ERROR_MESSAGE']); ?>
             <?php endif; ?>
+            
             <?php if (isset($_SESSION['SUCCESS_MESSAGE'])) : ?>
                 <div class="alert alert-success">
                     <p class="success"><?= $_SESSION['SUCCESS_MESSAGE']; ?></p>
