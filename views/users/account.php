@@ -12,12 +12,18 @@ require_once __DIR__ . '/../../utils/Auth.php';
     $user = User::find(Auth::id());
 
     $userAds = Ad::getUserAds($user->id);
-    var_dump($userAds)
 ?>
 
 <div class="container"> 
-    <h1>Profile Page</h1>
-
+<div class="row">
+        <div class="col-sm-2 col-md-2">
+            <img src="/img/cornerstore.png">
+        </div>
+        <div class="col-sm-8 col-md-8 text-left">
+            <h1 class="profile-margin">Profile Page</h1> 
+        </div>
+    </div>
+    
     <hr>
 
     <div class="row">

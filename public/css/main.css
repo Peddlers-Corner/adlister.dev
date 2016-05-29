@@ -84,3 +84,7 @@ a, a:hover {
 .med-thumb {
     min-height: 516px;
 }
+
+.profile-margin {
+    margin-top: 40px;
+}
