@@ -19,8 +19,18 @@ require_once __DIR__ . "../../../utils/Input.php";
     }
 ?>
 
-<div class="container"> 
-    <h1>Create a New Ad</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2 col-md-2">
+            <img src="/img/cornerstore.png">
+        </div>
+        <div class="col-sm-8 col-md-8 text-left">
+            <h1 class="profile-margin">Create a New Ad</h1> 
+        </div>
+    </div> 
+
+    <hr>
+    
     <div class="row">
         <div class="col-sm-6 col-sm-offset-3">
 
@@ -34,6 +44,7 @@ require_once __DIR__ . "../../../utils/Input.php";
                     <label for="price">Price</label>
                     <input name="price" id="price" type="number" min="0" step="0.01" class="form-control" placeholder="Price">
                 </div>
+                
                 <div class="form-group">
                     <label for="description">Description</label>
                     <textarea class="form-control" name="description" id="description" rows="5" placeholder="Describe your item"></textarea>
