@@ -4,7 +4,6 @@ require_once __DIR__ . "../../../models/Ad.php";
 require_once __DIR__ . "../../../utils/helper_functions.php";
 require_once __DIR__ . "../../../utils/Input.php";
 
-
     if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 
         $ad = new Ad;
@@ -18,7 +17,6 @@ require_once __DIR__ . "../../../utils/Input.php";
         header('Location: ../ads');
         exit();
     }
-
 ?>
 
 <div class="container"> 
