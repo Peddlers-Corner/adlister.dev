@@ -18,6 +18,7 @@ a, a:hover {
 .btn {
     background-color: #2f4448;
     border-color: #2f4448;
+    color: #fcf9f6;
 }
 
 .btn:hover {
