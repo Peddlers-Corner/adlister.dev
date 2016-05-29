@@ -15,7 +15,7 @@ require_once __DIR__ . '/../../utils/Auth.php';
 ?>
 
 <div class="container"> 
-<div class="row">
+    <div class="row">
         <div class="col-sm-2 col-md-2">
             <img src="/img/cornerstore.png">
         </div>

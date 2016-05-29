@@ -18,16 +18,23 @@ require_once '../models/User.php';
 ?>
 
 <div class="container">
-
 	<section id="login">
 
 		<div class="row">
+			<div class="col-sm-2 col-md-2">
+	            <img src="/img/cornerstore.png">
+	        </div>
+	        <div class="col-sm-8 col-md-8 text-left">
+	            <h1 class="profile-margin section-title">Signup For Peddler's Corner</h1> 
+	        </div>
+	    </div>
 
-			<h1 class="section-title">Signup For Peddler's Corner</h1>
+		<hr>
 
+		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
 
-				<p>Please fill out the information below so we can create your account.</p>
+				<h5>Please fill out the information below so we can create your account.</h5>
 				<?php if (isset($_SESSION['ERROR_MESSAGE'])) : ?>
 	                <div class="alert alert-danger">
 	                    <p class="error"><?= $_SESSION['ERROR_MESSAGE']; ?></p>
