@@ -45,10 +45,10 @@ require_once __DIR__ . '/../../utils/Auth.php';
     <div class="row">
         <div class="col-sm-4">
             <h2>Your Ads</h2>
-            <?php foreach ($userAds->attributes as $index=>$ad):  ?>
-                <?php if($ad['index'] % 4 == 0) : ?>
+            <?php foreach ($userAds as $ad):  ?>
+                <?php if($ad['index'] % 4 == 0) : ?> 
                     <div class="row">
-                <?php endif;  ?>
+                <?php endif;  ?> 
 
                 <div class="col-sm-4">
                     <p>
@@ -62,7 +62,7 @@ require_once __DIR__ . '/../../utils/Auth.php';
 
                 <?php if($index % 4 == 3) : ?>
                     </div> <!-- closes row -->
-                <?php endif; ?> 
+                <?php endif; ?>
 
             <?php endforeach; ?>
         </div>
