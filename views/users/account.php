@@ -33,7 +33,7 @@ require_once __DIR__ . '/../../utils/Auth.php';
 
     <hr>
     <div class="row">
-        <div class="col-sm-3 col-sm-offset-4">
+        <div class="col-sm-4 col-sm-offset-3">
             <h2>User Info</h2>
                 
             <p>Name: <?= $user->name; ?></p>
@@ -49,7 +49,7 @@ require_once __DIR__ . '/../../utils/Auth.php';
                     <a href='account/edit' class="btn btn-default" type="submit">Edit Profile</a>
                 </div>
                 <div class="col-sm-3 col-md-3 text-left">
-                    <a href='/ads/create' class="btn btn-default" id="btn_acct" type="submit">Create New Ad</a>
+                    <a href='/ads/create' class="btn btn-default" type="submit">Create New Ad</a>
                 </div>
             </div>
 
