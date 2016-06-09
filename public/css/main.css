@@ -40,6 +40,9 @@ a:hover {
     text-decoration-line: #92482b;
 }
 
+#btn_acct {
+    margin-left: 40px;
+}
 .btn {
     background-color: #2f4448;
     border-color: #2f4448;
